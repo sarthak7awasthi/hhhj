@@ -1,0 +1,72 @@
+<!--image 10-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration page</title>
+    <link rel="stylesheet" href="../AMRIT_WORK/style1.css">
+    <style>
+        
+        input{
+            width:800px;
+            height:30px;
+            background-color: white;
+        }
+        .button {
+            background-color:red;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+          .container{
+            margin: auto;
+            height:450px;
+            width:840px;
+            border:5px solid rgb(10, 10, 10);
+            border-radius: 20px;
+            padding:20px;
+            background-color: rgb(132, 210, 234);
+            
+          }
+      
+    </style>
+</head>
+<body>
+    <div class="navbar1">
+        <!-- <img src="logo2.png" class="logo" alt="DWFF"> -->
+        <a href="../AMRIT_WORK/index.html">
+        <h3 style="color:white">DWFF</h3>
+        </a>
+        <ul>
+          <li><a href="../AMRIT_WORK/index.html">Home</a></li>
+          <li><a href="../speakers/speakers.html">Event</a></li>
+          <li><a href="../schedule/schedule.html">Schedule</a></li>
+          <li><a href="../AVIRAL_WORK/register1.html">Register</a></li>
+          <li><a href="../AVIRAL_WORK/ticket.html">Ticket</a></li>
+          <li><a href="../AMRIT_WORK/contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        
+        <form action="http://127.0.0.1:5000/" method="post">
+            <h1>GET YOUR PASSES</h1>
+        <input type="text" name="firstname" placeholder="Enter your first name" size="50"><br><br>
+        <input type="text" name="lastname" placeholder="Enter your last name" size="50"><br><br>
+        <input type ="email" name="mail" placeholder="Enter your mail id" size="50" id="gg"><br><br>
+        <input type="tel" name="phone" placeholder="Enter your whatsapp number"size="50"><br><br>
+        <input type="text" name="city" placeholder="Enter your city name" size="50"><br> <br> <br>
+        <button class="button">Reserve your seat</button> <br> <br>
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+</body>
+</html>
